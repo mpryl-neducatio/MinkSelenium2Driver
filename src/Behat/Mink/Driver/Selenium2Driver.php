@@ -680,7 +680,7 @@ JS;
 
         $element->postValue(array('value' => array($value)));
         $script = 'Syn.trigger("change", {}, {{ELEMENT}})';
-        $element->postValue(array('value' => array($value)));
+        $element->postValue(array('value' => array($script)));
     }
 
     /**
